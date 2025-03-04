@@ -7,7 +7,7 @@ This landing page project is designed to showcase a simple, clean, and user-frie
 For this project, I focused on:
 
 - Using basic HTML for structure and content.
-- Styling the page with CSS (including Flexbox and CSS Grid for layout).
+- Styling the page with CSS (including Flexbox).
 - Navigation bar: A simple and clean navigation menu that links to different sections of the page.
 - Hero section: A large introductory section with a background image and a call to action (CTA).
 - Information sections: Sections that provide key information about the product or service being showcased.
@@ -20,3 +20,6 @@ HTML: The basic building blocks of the web, used to structure the content of the
 CSS: Used for styling the page and creating a modern, visually appealing design.
 Flexbox for layout.
 CSS Grid for responsive design.
+
+Image Credits:
+Computer Coding - Kevin Ku - unsplash.com
