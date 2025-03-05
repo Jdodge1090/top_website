@@ -1,0 +1,32 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    background-color: #1F2937;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.menu img {
+    padding: 15px 0 0 15px;
+}
+
+.menu nav {
+    display: flex;
+    gap:20px;
+    padding-right: 25px;
+}
+
+.menu nav a {
+    color: #F9FAf8;
+    font-size: 16px;
+    text-decoration: none;
+}
