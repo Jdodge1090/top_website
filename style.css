@@ -6,6 +6,7 @@ html, body {
 
 .hero {
     background-color: #1F2937;
+    padding-top: 60px;
 }
 
 .menu {
@@ -13,6 +14,13 @@ html, body {
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #1F2937;
+    padding: 15px 35px;
+    z-index: 1000;
 }
 
 .menu img {
@@ -71,4 +79,46 @@ html, body {
     font-size: 16px;
     cursor: pointer;
     width: 100px;
+}
+
+.informational button:hover {
+    background-color: white;
+    color: #3882F6;
+}
+
+.content-section h3 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+}
+
+.content-photos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    gap: 50px;
+}
+
+.content-photos img {
+    width: 500px;
+    height: 250px;
+}
+
+.content-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    flex-direction: row;
+    gap: 50px;
+    flex: 1;
+}
+
+.content-text p {
+    flex: 1;
+    text-align: center;
+    font-size: 16px;
 }
