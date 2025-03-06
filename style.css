@@ -122,3 +122,34 @@ html, body {
     text-align: center;
     font-size: 16px;
 }
+
+.quote-section {
+    background-color: #e5e7eb;
+    padding: 100px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-section blockquote {
+    max-width: 800px;
+}
+
+.quote-section p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    margin-bottom: 20px;
+}
+
+.quote-section footer {
+    font-weight: bold;
+    font-size: 24px;
+    text-align: right;
+    color: #1F2937;
+}
+
+.quote-section footer::before {
+    content: "- ";
+}
