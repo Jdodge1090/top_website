@@ -68,6 +68,7 @@ html, body {
 .informational p {
     font-size: 18px;
     color: #F9FAf8;
+    max-width: 80%;
 }
 
 .informational button {
@@ -161,8 +162,8 @@ html, body {
 .call-to-action {
     padding: 100px 200px;
     display: flex;
-    align-content: center;
     gap: 50px;
+    justify-content: center;
 }
 
 .cta-center {
@@ -194,4 +195,15 @@ html, body {
     background-color: #F9FAf8;
     color: #3882F6;
     cursor: pointer;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAf8;
+    text-align: center;
+}
+
+.footer p {
+    padding: 25px 0;
+    font-family: Roboto;
 }
