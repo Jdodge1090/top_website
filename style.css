@@ -21,6 +21,7 @@ html, body {
     background-color: #1F2937;
     padding: 15px 35px;
     z-index: 1000;
+    border-bottom: white .5px solid;
 }
 
 .menu img {
