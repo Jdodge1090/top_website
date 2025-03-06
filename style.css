@@ -91,6 +91,7 @@ html, body {
     color: #1F2937;
     font-weight: 900;
     text-align: center;
+    font-family: Roboto;
 }
 
 .content-photos {
@@ -123,6 +124,7 @@ html, body {
     flex: 1;
     text-align: center;
     font-size: 16px;
+    font-family: Roboto;
 }
 
 .quote-section {
@@ -154,4 +156,42 @@ html, body {
 
 .quote-section footer::before {
     content: "- ";
+}
+
+.call-to-action {
+    padding: 100px 200px;
+    display: flex;
+    align-content: center;
+    gap: 50px;
+}
+
+.cta-center {
+    flex-direction: row;
+    background-color: #3882F6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.cta-text {
+    max-width: 70%;
+    margin-left: 50px;
+    font-family: Roboto;
+    color: #F9FAf8;
+}
+
+.cta-center button {
+    margin-right: 50px;
+    background-color: #3882F6;
+    border: #F9FAf8 2px solid;
+    border-radius: 5px;
+    padding: 10px 15px;
+    color: #F9FAf8;
+}
+
+.cta-center button:hover {
+    background-color: #F9FAf8;
+    color: #3882F6;
+    cursor: pointer;
 }
