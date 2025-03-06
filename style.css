@@ -105,6 +105,8 @@ html, body {
 .content-photos img {
     width: 500px;
     height: 250px;
+    border:#3882F6 5px solid;
+    border-radius: 10px;
 }
 
 .content-text {
